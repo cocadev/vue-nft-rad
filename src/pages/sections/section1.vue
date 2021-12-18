@@ -22,7 +22,7 @@
         </a>
       </div>
 
-      <div class="w-full flex flex-wrap justify-center md:justify-start mt-12 md:mt-24">
+      <div class="w-full flex flex-wrap justify-center md:justify-between mt-12 md:mt-24">
         <div v-for="(i, index) in deers" :key="index" class="m-3 lg:mr-5">
           <img :src="getImgUrl(i)" alt='deer'> 
         </div>
