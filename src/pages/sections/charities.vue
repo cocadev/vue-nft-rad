@@ -6,10 +6,10 @@
         :product="product"
       />
 
-      <div class="w-full flex flex-col md:flex-row justify-around mt-2 md:mt-20 p-10 rounded-3xl" style="alignItems: center">
+      <div class="w-full flex flex-col md:flex-row justify-around mt-2 md:mt-20 pt-10 rounded-3xl" style="alignItems: center">
         <a href="https://www.youtube.com/watch?v=R7JTEHeqxfQ" target="_blank" class="m-2"><img src="../../assets/images/image 9.png" alt='logo'></a>
         <a href="https://www.youtube.com/watch?v=TTNadOCVy28" target="_blank" class="m-2"><img src="../../assets/images/metamask.png" alt='logo'></a>
-        <a href="https://www.youtube.com/watch?v=7XyC9Qos5BQ" target="_blank" class="m-2"><img src="../../assets/images/dao.png" alt='logo'></a>
+        <a href="https://www.youtube.com/watch?v=btFXqUFtbiw" target="_blank" class="m-2"><img src="../../assets/images/dao.png" alt='logo'></a>
       </div>
     </div>
   </section>
