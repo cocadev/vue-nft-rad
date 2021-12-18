@@ -1,6 +1,6 @@
 <template>
   <section id='team' class="bg-black px-4 lg:px-12 pb-10 -mt-20 md:mt-32">
-    <div class="max-w-screen-xl mx-auto relative z-20">
+    <div class="max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto relative z-20">
       <Atom
         :product="product"
       />
@@ -12,7 +12,7 @@
             :src="getImgUrl(i.img)"
             class="deer-img"
           />
-          <h1 class="text-md md:text-md text-white font-extrabold text-center" :style="{'margin-top': i.id === 3 ? '20px' : '20px'}">
+          <h1 class="text-md md:text-md text-white font-extrabold text-center" :style="{'margin-top': i.id === 3 ? '40px' : '40px'}">
             {{i.name}}
           </h1>
           <h1 class="text-white text-md lg:text-md font-light -mt-1">{{i.job}}</h1>

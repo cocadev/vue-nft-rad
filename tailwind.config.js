@@ -15,7 +15,7 @@ module.exports = {
       '3xl': '2.25rem', // 36px
       '4xl': '2.5rem', // 40px
       '5xl': '3.125rem', //50px
-      '6xl': '4rem',
+      '6xl': '3.75rem',
       '7xl': '5rem',
       '9xl': '5rem',
 
@@ -31,8 +31,8 @@ module.exports = {
       sky: '#00FFD4'
     },
     fontFamily: {
-      'nunito': ['Nunito', 'sans-serif'],
-      'crafty': ['Crafty Girls', 'cursive']
+      'nunito': ['Inter', 'sans-serif'],
+      'crafty': ['Inter', 'cursive']
     },
     cursor: {
       auto: 'auto',

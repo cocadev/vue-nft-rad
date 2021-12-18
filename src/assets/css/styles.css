@@ -4,7 +4,7 @@
 @tailwind tailwind;
 
 html {
-	font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
 	line-height: 1.5;
 	scroll-behavior: smooth;
 }

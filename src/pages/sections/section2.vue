@@ -1,6 +1,7 @@
 <template>
-  <section id='community' class="bg-black py-4 pl-4 pr-6 mt-0 md:mt-8">
-    <div class="max-w-screen-xl mx-auto relative z-20">
+    <section id='community' class="bg-black px-4 lg:px-12 pb-10 mt-10 md:mt-32">
+
+    <div class="max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto relative z-20">
       <Atom
         :product="product"
       />

@@ -4,15 +4,14 @@
       <div class="bar" :style="product.style"></div>
     </div>
     <div class="flex justify-center md:justify-start" :style="product.pt">
-      <h2 class="font-bold md:text-left text-3xl md:text-4xl lg:text-4xl xl:text-6xl 2xl:text-7xl z-10">
-        <div v-show="!product.big" class="text-white text-3xl md:text-8xl font-black">{{product.title}} <span class="text-sky">.</span></div>
-        <div v-show="product.big" class="text-white text-3xl md:text-5xl font-black" style="line-height: 60px">
-          Rad Reindeer <br/>
-          NFT Collection <div class="h-5"/>
+      <h2 class="font-bold text-center md:text-left text-3xl md:text-4xl lg:text-4xl xl:text-6xl 2xl:text-7xl z-10">
+        <div v-show="!product.big" class="text-white text-3xl md:text-8xl font-extrabold">{{product.title}} <span class="text-sky">.</span></div>
+        <div v-show="product.big" class="text-white text-3xl md:text-6xl font-extrabold text-big">
+          Rad Reindeer NFT Collection <div class="h-5"/>
         </div>
       </h2>
     </div>
-    <h2 class="text-white opacity-60 text-center md:text-left" style="max-width: 500px">
+    <h2 class="text-white opacity-60 text-center md:text-left max-500">
       {{product.description}}
     </h2>
   </div>
@@ -31,6 +30,21 @@
     background: #00FFD4;
     margin-left: -1px;
     margin-top: 145px;
+  }
+  .max-500 {
+    max-width: 530px
+  }
+  .text-big {
+    line-height: 70px; 
+    max-width: 470px
+  }
+  @media (max-width: 769px) {
+    .max-500 {
+      max-width: 1000px;
+    }
+    .text-big {
+      line-height: 45px; 
+    }
   }
 </style>
 <script>
