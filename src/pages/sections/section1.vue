@@ -17,9 +17,9 @@
       </div>
 
       <div class="flex mt-8 md:mt-16 w-full">
-        <!-- <a href="./download/whitepaper.pdf" target="_blank"> -->
+        <a href="https://northpole.radreindeer.com" target="_blank">
           <div class="btn">MINT NOW <img class="ml-2" src="../../assets/images/Vector.png" alt='btn'/></div>
-        <!-- </a> -->
+        </a>
       </div>
 
       <div class="w-full flex flex-wrap justify-between mt-12 md:mt-24">

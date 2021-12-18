@@ -41,7 +41,6 @@ body {
 	background-position: 80%;
 	background-repeat: no-repeat;
 }
-
 .vue-popover.dropdown-position-left:before {
 	border-top: 0px solid transparent!important;
   border-bottom: 0px solid transparent!important;

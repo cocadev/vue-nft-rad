@@ -14,7 +14,7 @@
     <ul class="w-full flex z-50">
       <div class="flex md:justify-around w-full max-w-screen-md mr-0 xl:mr-20">
         <li v-for="(i, index) in links" :key="index" >
-          <a :href="i.link" rel="noreferrer" :class="i.class" :style="{'pointer-events': index == 0 ? 'none' : ''}">
+          <a :href="i.link" rel="noreferrer" :class="i.class" :target='index === 0 ? "_blank" : "_self"'>
             <span class="block mr-7 text-base lg:text-2lg">
               {{ i.title }}
             </span>
@@ -74,10 +74,7 @@
           class="text-lg mt-2"
           rel="noreferrer" 
           :href="i.link" 
-          :style="{
-            'pointer-events': index === 0 ? 'none' : '', 
-            color: index === 0 ? 'rgb(140, 140, 140)' : '#fff'
-          }"  
+          :target='index === 0 ? "_blank" : "_self"'
         >
           {{i.title}}
         </a>
@@ -119,7 +116,7 @@ export default {
     return {
       music: false,
       links: [
-        { link: "", title: "Mint", class: "hidden md:block cursor-not-allowed" },
+        { link: "https://northpole.radreindeer.com", title: "Mint", class: "text-white hidden md:block cursor-pointer" },
         { link: "#community", title: "Community", class: "text-white hidden md:block cursor-pointer" },
         // { link: "#roadmap", title: "Roadmap", class: "text-white hidden md:block cursor-pointer" },
         { link: "#tips", title: "Tips", class: "text-white hidden md:block cursor-pointer" },
