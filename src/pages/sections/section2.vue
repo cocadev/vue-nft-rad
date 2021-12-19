@@ -37,7 +37,7 @@
 
       <div class="flex flex-row mt-12">
         <div class="mt-4" style="width: 170px">
-          <img src="../../assets/images/Rectangle 7.png" alt='icon'/>
+          <img src="../../assets/images/Rectangle 7.png" alt='icon' class="logo-img">/>
         </div>
         <div class="ml-2 sm:ml-32 mt-4" style="width: 180px">
           <img src="../../assets/images/alaska 1.png" alt='icon'/>
@@ -49,7 +49,18 @@
     </div>
   </section>
 </template>
-
+<style scoped>
+.logo-img{
+  width: 90px; 
+  margin-top: -10px
+}
+@media (max-width: 600px) {
+.logo-img{
+  width: 50px; 
+  margin-top: 0px
+}
+}
+</style>
 <script>
 import Atom from "../atom.vue";
 
